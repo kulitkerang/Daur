@@ -1,0 +1,290 @@
+.gambar {
+	width: 2000px;
+	height: 2000px
+}
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #ee6e73;
+}
+
+footer.page-footer .footer-copyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255,255,255,0.8);
+  background-color: rgba(51,51,51,0.08);
+}
+.light,footer.page-footer .footer-copyright {
+  font-weight: 300;
+}
+.HdrFtr-Menu-Txt-Style,footer.page-footer ul.footer-nav-container {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.HdrFtr-Menu-Txt-white-Style,footer.page-footer .hours-of-operation-container .operation-hours,footer.page-footer .hours-of-operation-container .operation-address,footer.page-footer .hours-of-operation-container .operation-title {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Text-Style-3,footer.page-footer .hours-of-operation-container .copy-right {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #6d6d72;
+}
+
+footer.page-footer {
+  display: block;
+  float: left;
+  width: 100%;
+  background: #252525;
+  height: 615px;
+}
+
+footer.page-footer ul.footer-nav-container {
+  background: transparent;
+  box-shadow: none;
+  margin-top: 46px;
+  display: block;
+}
+
+footer.page-footer ul.footer-nav-container li.footer-nav-item {
+  padding: 0 20px;
+  border-right: 1px solid #fff;
+  display: inline-block;
+  border-right: 1px solid white;
+  line-height: 20px;
+}
+
+footer.page-footer ul.footer-nav-container li.footer-nav-item:last-child {
+  border-right: none;
+}
+
+footer.page-footer ul.footer-nav-container li.footer-nav-item:hover {
+  color: #00a179;
+}
+
+footer.page-footer ul.footer-nav-container a {
+  color: #fff;
+}
+
+footer.page-footer ul.footer-nav-container a:hover {
+  color: #00a179;
+}
+
+footer.page-footer .nav-container {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+footer.page-footer .nav-container nav {
+  background: transparent;
+  box-shadow: none;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  height: 40px;
+  text-align: center;
+  line-height: 51px;
+}
+
+footer.page-footer .nav-container nav a {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+footer.page-footer .nav-container nav a:hover {
+  color: #00a179;
+}
+
+footer.page-footer .hours-of-operation-container {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+footer.page-footer .hours-of-operation-container .operation-hours {
+  margin: 0;
+}
+
+footer.page-footer .hours-of-operation-container .operation-address {
+  
+}
+
+footer.page-footer .hours-of-operation-container .operation-title {
+  font-weight: 500;
+  margin: 30px 0 0 0;
+}
+
+footer.page-footer .hours-of-operation-container .copy-right {
+  margin: 23px 0 0 0;
+}
+
+footer.page-footer .hours-of-operation-container .copy-right-symbol {
+  padding-right: 3px;
+}
+
+@media only screen and (max-width: 992px) {
+  footer.page-footer ul.footer-nav-container {
+    height: auto  !important;
+    text-align: center;
+    display: block;
+    padding: 0;
+    width: 72%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item {
+    display: inline-block;
+    padding: 0 16px;
+    border-right: 1px solid white;
+    line-height: 20px;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item a {
+    color: #fff;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item a:hover {
+    color: #00a179;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item:last-child,footer.page-footer ul.footer-nav-container li.footer-nav-item:nth-child(3) {
+    border-right: none !important;
+  }
+
+  footer.page-footer ul.footer-nav-container .contact {
+    border-right: none !important;
+  }
+@media only screen and (max-width: 600px) {
+  footer.page-footer ul.footer-nav-container {
+    display: block;
+    float: left;
+    width: 100% !important;
+    height: auto;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px !important;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item:last-child {
+    border-right: none;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item:hover {
+    color: #00a179;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item.contact {
+    border-right: 0;
+  }
+
+  footer.page-footer ul.footer-nav-container li.footer-nav-item.career {
+    margin: 0 20px;
+  }
+
+  footer.page-footer ul.social-nav-conatiner {
+    display: block;
+    float: left;
+    width: 100% !important;
+  }
+
+  footer.page-footer ul.social-nav-conatiner li.social-nav-list {
+    width: 100% !important;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  footer.page-footer .hours-of-operation-container .operation-title {
+    font-weight: 500 !important;
+    margin: 24px 0 0 0;
+    font-size: 15px;
+  }
+
+  footer.page-footer .hours-of-operation-container .operation-hours,footer.page-footer .hours-of-operation-container .operation-address,footer.page-footer .hours-of-operation-container .copy-right {
+    font-size: 15px;
+  }
+
+  footer.page-footer .nav-container {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  footer.page-footer .nav-container nav {
+    background: transparent;
+    box-shadow: none;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    line-height: 51px;
+  }
+
+  footer.page-footer .nav-container nav a {
+    display: inline-block;
+    padding: 0 5px;
+  };
+}
+@media only screen and (max-width: 320px) {
+  .footer-nav-item {
+    font-size: 13px !important;
+  };
+}
+footer .download-app-container div {
+  margin: 20px 0 0 0;
+}
+
+footer .download-app-container img {
+  height: 48px;
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  };
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  };
+}
+
+.diatasfooter {
+  background: url("../img/green-pyramid.png");
+  display: block;
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  margin-bottom: 100px 0;
+}
+
+main .waste{
+
+}
+@font-face {
+    font-family: gothic_century;
+        src: url(GOTHIC.TTF);
+}
